@@ -41,8 +41,10 @@
 </head>
 <body class="antialiased">
 
+    <!-- Header / Hero Section -->
     <div class="hero-bg min-h-screen flex flex-col items-center justify-center text-center text-white p-6">
         <div class="bg-black bg-opacity-30 p-8 rounded-lg backdrop-blur-sm">
+            <!-- Mockup Logo -->
             <h1 class="text-6xl md:text-8xl font-bold">DWA</h1>
             <p class="text-2xl md:text-3xl font-serif text-gray-200 mt-2">Weddings by Aara</p>
             
@@ -56,12 +58,14 @@
         </div>
     </div>
 
+    <!-- The Problem Section -->
     <section class="py-24 bg-white">
         <div class="container mx-auto max-w-6xl px-6">
             <h2 class="text-4xl md:text-5xl font-bold text-center brand-maroon">Stop Juggling DMs. Start Booking Dream Clients.</h2>
             <p class="text-center text-lg text-gray-600 mt-4 max-w-3xl mx-auto">Your brand is premium. Your booking process should be too. Stop letting clients slip through the cracks of DM chaos and WhatsApp follow-ups.</p>
             
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16">
+                <!-- The DM Chaos -->
                 <div class="bg-gray-100 p-8 rounded-lg border border-gray-200">
                     <h3 class="text-2xl font-bold text-gray-800 text-center">The "Old Way" (The DM Bottleneck)</h3>
                     <div class="mt-6 space-y-3">
@@ -85,6 +89,7 @@
                     </div>
                 </div>
                 
+                <!-- The Automated Studio -->
                 <div class="bg-brand-maroon text-white p-8 rounded-lg shadow-brand">
                     <h3 class="text-2xl font-bold text-center">The "New Way" (Your 24/7 Booking Hub)</h3>
                     <div class="mt-6 bg-white text-gray-800 p-6 rounded-lg shadow-inner">
@@ -102,30 +107,56 @@
         </div>
     </section>
 
+    <!-- NEW: Our Work in Motion (Visual Mockup) -->
     <section class="py-24 bg-brand-beige">
         <div class="container mx-auto max-w-6xl px-6">
             <h2 class="text-4xl md:text-5xl font-bold text-center brand-maroon">Your Work, Beautifully Showcased</h2>
             <p class="text-center text-lg text-gray-600 mt-4 max-w-3xl mx-auto">This isn't just an Instagram feed. It's a professional portfolio that builds trust and drives conversions.</p>
             
-            <div class="mt-16">
-                <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-                <div class="elfsight-app-a841c30f-4b0c-4e89-a56b-03f40f065bfd" data-elfsight-app-lazy></div>
+            <!-- This container holds both the grid and the overlay -->
+            <div class="relative mt-16 rounded-xl overflow-hidden shadow-lg">
+                
+                <!-- 1. The Blurred Grid (Background) -->
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-1 md:gap-2 blur-sm opacity-60">
+                    <img src="https://placehold.co/600x600/a95c68/F0E9E4?text=DWA" alt="DWA Post 1" class="w-full h-full object-cover">
+                    <img src="https://placehold.co/600x600/333333/F0E9E4?text=DWA" alt="DWA Post 2" class="w-full h-full object-cover">
+                    <img src="https://placehold.co/600x600/a95c68/F0E9E4?text=DWA" alt="DWA Post 3" class="w-full h-full object-cover">
+                    <img src="https://placehold.co/600x600/333333/F0E9E4?text=DWA" alt="DWA Post 4" class="w-full h-full object-cover">
+                    <img src="https://placehold.co/600x600/a95c68/F0E9E4?text=DWA" alt="DWA Post 5" class="w-full h-full object-cover">
+                    <img src="https://placehold.co/600x600/333333/F0E9E4?text=DWA" alt="DWA Post 6" class="w-full h-full object-cover">
+                </div>
+
+                <!-- 2. The Visual Overlay (Foreground) -->
+                <div class="absolute inset-0 bg-black bg-opacity-70 flex flex-col items-center justify-center text-center text-white p-6 border-4 border-dashed border-gray-400">
+                    <svg class="w-16 h-16 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" />
+                    </svg>
+                    <h3 class="text-3xl md:text-4xl font-bold mt-4">Your Live Instagram Feed</h3>
+                    <p class="text-lg text-gray-200 mt-2 max-w-md">
+                        This section will automatically sync with your <span class="font-bold text-white">@weddingsbyaara</span> account to show all your latest posts and reels, updating 24/7.
+                    </p>
                 </div>
             </div>
+
+        </div>
     </section>
 
+    <!-- The Solution (Booking Portal) -->
     <section id="solution" class="py-24 bg-white">
         <div class="container mx-auto max-w-5xl px-6">
             <h2 class="text-4xl md:text-5xl font-bold text-center brand-maroon">Your 24/7 Digital Studio Manager</h2>
             <p class="text-center text-lg text-gray-600 mt-4 max-w-3xl mx-auto">This is the engine we'll build for you. Clients can see your packages, check your live availability, and book you—all without a single DM.</p>
             
             <div class="mt-16 bg-white border-2 border-brand-maroon rounded-xl shadow-brand overflow-hidden">
+                <!-- Header -->
                 <div class="bg-brand-beige p-6 border-b-2 border-brand-maroon">
                     <h3 class="text-2xl font-bold text-gray-800">Book Your Choreography Package</h3>
                     <p class="text-gray-600">Select your package, check our calendar, and let's start dancing!</p>
                 </div>
                 
+                <!-- Body -->
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 p-8">
+                    <!-- Form -->
                     <div>
                         <h4 class="text-xl font-semibold text-gray-700 mb-4">Step 1: Tell Us About Your Event</h4>
                         <form class="space-y-4">
@@ -139,6 +170,110 @@
                                     <option>Sangeet Special (Full Family)</option>
                                     <option>Bridal / Groom Solo</option>
                                     <option>Couple's First Dance</option>
+                                    <option>Custom Flash Mob</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="message" class="block text-sm font-medium text-gray-600">Tell us your vision (optional)</label>
+                                <textarea id="message" rows="3" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-brand-maroon focus:ring-brand-maroon" placeholder="We want a mix of Bollywood hits and a classic waltz..."></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    
+                    <!-- Calendar -->
+                    <div>
+                        <h4 class="text-xl font-semibold text-gray-700 mb-4">Step 2: Check Our Availability</h4>
+                        
+                        <!-- Calendar View -->
+                        <div id="calendar-view">
+                            <div class="bg-gray-50 rounded-lg p-4 border border-gray-200">
+                                <div class="flex justify-between items-center mb-3">
+                                    <button class="text-gray-500 hover:text-brand-maroon">&larr;</button>
+                                    <p class="text-lg font-semibold text-gray-700">November 2025</p>
+                                    <button class="text-gray-500 hover:text-brand-maroon">&rarr;</button>
+                                </div>
+                                <div class="grid grid-cols-7 gap-1 text-center text-sm">
+                                    <span class="text-gray-400">Su</span>
+                                    <span class="text-gray-400">Mo</span>
+                                    <span class="text-gray-400">Tu</span>
+                                    <span class="text-gray-400">We</span>
+                                    <span class="text-gray-400">Th</span>
+                                    <span class="text-gray-400">Fr</span>
+                                    <span class="text-gray-400">Sa</span>
+                                    <span class="text-gray-300 p-2 rounded-lg">27</span>
+                                    <span class="text-gray-300 p-2 rounded-lg">28</span>
+                                    <span class="text-gray-300 p-2 rounded-lg">29</span>
+                                    <span class="text-gray-300 p-2 rounded-lg">30</span>
+                                    <span class="text-gray-300 p-2 rounded-lg">31</span>
+                                    <span class="text-gray-700 p-2 rounded-lg hover:bg-gray-200 cursor-pointer">1</span>
+                                    <span class="text-gray-700 p-2 rounded-lg hover:bg-gray-200 cursor-pointer">2</span>
+                                    <span class="text-gray-700 p-2 rounded-lg hover:bg-gray-200 cursor-pointer">3.</span>
+                                    <span class="text-gray-700 p-2 rounded-lg hover:bg-gray-200 cursor-pointer">4</span>
+                                    <span class="text-gray-700 p-2 rounded-lg hover:bg-gray-200 cursor-pointer">5</span>
+                                    <span class="text-gray-700 p-2 rounded-lg hover:bg-gray-200 cursor-pointer">6</span>
+                                    <span class="text-gray-700 p-2 rounded-lg hover:bg-gray-200 cursor-pointer">7</span>
+                                    <span class="text-gray-700 p-2 rounded-lg hover:bg-gray-200 cursor-pointer">8</span>
+                                    <span class="text-gray-700 p-2 rounded-lg hover:bg-gray-200 cursor-pointer">9</span>
+                                    <span class="bg-red-200 text-red-700 p-2 rounded-lg line-through cursor-not-allowed">10</span>
+                                    <span class="text-gray-700 p-2 rounded-lg hover:bg-gray-200 cursor-pointer">11</span>
+                                    <span class="text-gray-700 p-2 rounded-lg hover:bg-gray-200 cursor-pointer">12</span>
+                                    <span class="text-gray-700 p-2 rounded-lg hover:bg-gray-200 cursor-pointer">13</span>
+                                    <span class="text-gray-700 p-2 rounded-lg hover:bg-gray-200 cursor-pointer">14</span>
+                                    <span class="text-gray-700 p-2 rounded-lg hover:bg-gray-200 cursor-pointer">15</span>
+                                    <span class="bg-red-200 text-red-700 p-2 rounded-lg line-through cursor-not-allowed">16</span>
+                                    <span class="bg-red-200 text-red-700 p-2 rounded-lg line-through cursor-not-allowed">17</span>
+                                    <span class="text-gray-700 p-2 rounded-lg hover:bg-gray-200 cursor-pointer">18</span>
+                                    <span class="text-gray-700 p-2 rounded-lg hover:bg-gray-200 cursor-pointer">19</span>
+                                    <span class="text-gray-700 p-2 rounded-lg hover:bg-gray-200 cursor-pointer">20</span>
+                                    <span class="text-gray-700 p-2 rounded-lg hover:bg-gray-200 cursor-pointer">21</span>
+                                    <!-- Interactive Date -->
+                                    <span class="bg-green-600 text-white p-2 rounded-lg cursor-pointer hover:bg-green-700 transition-colors" onclick="showTimes('November 22, 2025')">22</span>
+                                    <span class="bg-red-200 text-red-700 p-2 rounded-lg line-through cursor-not-allowed">23</span>
+                                    <span class="bg-red-200 text-red-700 p-2 rounded-lg line-through cursor-not-allowed">24</span>
+                                    <span class="bg-red-200 text-red-700 p-2 rounded-lg line-through cursor-not-allowed">25</span>
+                                    <span class="text-gray-700 p-2 rounded-lg hover:bg-gray-200 cursor-pointer">26</span>
+                                    <span class="text-gray-700 p-2 rounded-lg hover:bg-gray-200 cursor-pointer">27</span>
+                                    <span class="text-gray-700 p-2 rounded-lg hover:bg-gray-200 cursor-pointer">28</span>
+                                    <span class="text-gray-700 p-2 rounded-lg hover:bg-gray-200 cursor-pointer">29</span>
+                                    <span class="bg-red-200 text-red-700 p-2 rounded-lg line-through cursor-not-allowed">30</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Times View (hidden by default) -->
+                        <div id="times-view" class="hidden">
+                            <div class="flex justify-between items-center mb-3">
+                                <button onclick="showCalendar()" class="text-sm font-medium text-brand-maroon hover:underline">&larr; Back to Calendar</button>
+                            </div>
+                            <h5 class="text-lg font-semibold text-gray-700 mb-4" id="times-header">Available Times</h5>
+                            <div class="grid grid-cols-2 gap-3">
+                                <button class="w-full text-center p-3 border border-gray-300 rounded-lg hover:border-brand-maroon hover:bg-brand-beige cursor-pointer transition-colors">09:00 AM</button>
+                                <button class="w-full text-center p-3 border border-gray-300 rounded-lg hover:border-brand-maroon hover:bg-brand-beige cursor-pointer transition-colors">11:00 AM</button>
+                                <button class="w-full text-center p-3 border border-gray-300 rounded-lg hover:border-brand-maroon hover:bg-brand-beige cursor-pointer transition-colors">02:00 PM</button>
+                                <button class="w-full text-center p-3 bg-gray-200 text-gray-500 rounded-lg cursor-not-allowed line-through">04:00 PM</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Footer CTA -->
+                <div class="bg-gray-50 p-6 text-center">
+                    <button class="w-full md:w-auto bg-brand-maroon text-white font-bold text-lg px-12 py-4 rounded-lg shadow-lg transform transition-transform hover:scale-105">
+                        Book Your Date & Pay Deposit
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Prop Section -->
+    <section class="py-24 bg-brand-beige">
+        <div class="container mx-auto max-w-5xl px-6 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold brand-maroon">An Unbeatable Partnership</h2>
+            <p class="text-lg text-gray-600 mt-4 max-w-3xl mx-auto">This level of custom platform might seem like a huge expense, but our proposal will stun you. We believe in building long-term relationships, not one-time projects.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 text-left">
+                                     <option>Couple's First Dance</option>
                                     <option>Custom Flash Mob</option>
                                 </select>
                             </div>
