@@ -107,7 +107,7 @@
         </div>
     </section>
 
-    <!-- NEW: Our Work in Motion (Visual Mockup) -->
+    <!-- Our Work in Motion (Visual Mockup) -->
     <section class="py-24 bg-brand-beige">
         <div class="container mx-auto max-w-6xl px-6">
             <h2 class="text-4xl md:text-5xl font-bold text-center brand-maroon">Your Work, Beautifully Showcased</h2>
@@ -265,9 +265,7 @@
             </div>
         </div>
     </section>
-
-    
-
+ <!-- Value Prop Section -->
     <section class="py-24 bg-brand-beige">
         <div class="container mx-auto max-w-5xl px-6 text-center">
             <h2 class="text-4xl md:text-5xl font-bold brand-maroon">An Unbeatable Partnership</h2>
@@ -289,7 +287,45 @@
             </div>
         </div>
     </section>
+
+    <!-- NEW: Founder Section -->
+    <section class="py-24 bg-white">
+        <div class="container mx-auto max-w-5xl px-6 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold brand-maroon">Meet Your Partner</h2>
+            
+            <div class="flex flex-col md:flex-row items-center justify-center gap-8 mt-12 bg-gray-50 p-8 rounded-lg shadow-lg border border-gray-200">
+                <!-- Profile Picture Placeholder -->
+                <img src="jay.png" alt="Jay Basotia" class="rounded-full w-36 h-36 md:w-48 md:h-48 object-cover border-4 border-white shadow-md">
+                
+                <div class="text-center md:text-left">
+                    <h3 class="text-3xl font-bold text-gray-800">Jay Basotia</h3>
+                    <p class="text-xl text-gray-600 mt-1">Founder, Jetweb Labs</p>
+                    <p class="text-lg text-gray-500 mt-4 max-w-lg">
+                        "I build world-class technology for world-class brands. I'm excited by your vision and want to be your personal tech partner to help you scale it."
+                    </p>
+                    <a href="https://linkedin.com/in/jaybasotia/" target="_blank" class="mt-4 inline-flex items-center gap-2 bg-blue-600 text-white font-semibold px-5 py-2 rounded-lg transition-transform transform hover:scale-105">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                        </svg>
+                        View LinkedIn Profile
+                    </a>
+                </div>
+            </div>
+
+            <!-- Social Proof Logos -->
+            <div class="mt-12">
+                <p class="text-sm font-semibold text-gray-500 uppercase tracking-wider">With experience from tech leaders</p>
+                <div class="flex flex-wrap justify-center items-center gap-x-8 gap-y-4 mt-4 opacity-70">
+                    <img src="https://placehold.co/100x40/000/FFF?text=Amazon" alt="Amazon Logo" class="h-8">
+                    <img src="https://placehold.co/100x40/000/FFF?text=Revolut" alt="Revolut Logo" class="h-8">
+                    <img src="https://placehold.co/100x40/000/FFF?text=Rippling" alt="Rippling Logo" class="h-8">
+                    <img src="https://placehold.co/100x40/000/FFF?text=OYO" alt="OYO Logo" class="h-8">
+                </div>
+            </div>
+        </div>
+    </section>
     
+    <!-- Final CTA -->
     <section class="py-24 bg-brand-maroon text-white">
         <div class="container mx-auto max-w-4xl px-6 text-center">
             <h2 class="text-4xl md:text-5xl font-bold">Ready to build your digital stage?</h2>
@@ -302,11 +338,13 @@
         </div>
     </section>
 
+    <!-- Footer -->
     <footer class="text-center p-8 bg-brand-beige text-gray-500">
         <p>A Personalized Vision by <span class="font-bold text-gray-700">Jetweb Labs</span></p>
         <p class="text-sm mt-1">This is an interactive demo created exclusively for Weddings by Aara to showcase our capabilities.</p>
     </footer>
 
+    <!-- JavaScript for Calendar Interaction -->
     <script>
         function showTimes(date) {
             document.getElementById('calendar-view').classList.add('hidden');
